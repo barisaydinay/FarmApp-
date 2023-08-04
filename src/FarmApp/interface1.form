@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="FarmApp.interface1">
+  <grid id="27dc6" binding="menuPanel" layout-manager="GridLayoutManager" row-count="17" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="794" height="737"/>
+    </constraints>
+    <properties>
+      <background color="-5848876"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="94d00" class="javax.swing.JButton" binding="deleteCowButton" default-binding="true">
+        <constraints>
+          <grid row="15" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Delete Cow"/>
+        </properties>
+      </component>
+      <component id="6d4b6" class="javax.swing.JButton" binding="listCowsButton" default-binding="true">
+        <constraints>
+          <grid row="10" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="List Cows"/>
+        </properties>
+      </component>
+      <component id="a7c29" class="javax.swing.JButton" binding="addCowButton" default-binding="true">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Add Cow"/>
+        </properties>
+      </component>
+      <hspacer id="1993c">
+        <constraints>
+          <grid row="0" column="0" row-span="10" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <hspacer id="ae0b9">
+        <constraints>
+          <grid row="0" column="2" row-span="10" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <component id="cdf77" class="javax.swing.JButton" binding="addSheepButton" default-binding="true">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Add Sheep"/>
+        </properties>
+      </component>
+      <component id="c5e62" class="javax.swing.JButton" binding="displayCowDetailsButton" default-binding="true">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Display Cow Details"/>
+        </properties>
+      </component>
+      <component id="a55e5" class="javax.swing.JButton" binding="addVetButton" default-binding="true">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Add Vet"/>
+        </properties>
+      </component>
+      <component id="dad6e" class="javax.swing.JButton" binding="addFarmWorkerButton" default-binding="true">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Add FarmWorker"/>
+        </properties>
+      </component>
+      <component id="5b526" class="javax.swing.JButton" binding="deleteVetButton" default-binding="true">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Delete Vet"/>
+        </properties>
+      </component>
+      <component id="7f20c" class="javax.swing.JButton" binding="displayVetDetailsButton" default-binding="true">
+        <constraints>
+          <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Display Vet Details"/>
+        </properties>
+      </component>
+      <component id="8430f" class="javax.swing.JButton" binding="addTreatmentButton" default-binding="true">
+        <constraints>
+          <grid row="7" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Add Treatment"/>
+        </properties>
+      </component>
+      <component id="adda9" class="javax.swing.JButton" binding="displayCowTreatmentsButton" default-binding="true">
+        <constraints>
+          <grid row="8" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Display Cow Treatments"/>
+        </properties>
+      </component>
+      <component id="a025e" class="javax.swing.JButton" binding="displayCowTreatmentsWithButton" default-binding="true">
+        <constraints>
+          <grid row="9" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Display Cow Treatments with Date"/>
+        </properties>
+      </component>
+      <component id="4d02a" class="javax.swing.JButton" binding="listVetsButton" default-binding="true">
+        <constraints>
+          <grid row="11" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="List Vets"/>
+        </properties>
+      </component>
+      <component id="5a2e5" class="javax.swing.JButton" binding="animalFeedingButton" default-binding="true">
+        <constraints>
+          <grid row="12" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Animal Feeding"/>
+        </properties>
+      </component>
+      <component id="64b75" class="javax.swing.JButton" binding="displayEmployeeSalaryButton" default-binding="true">
+        <constraints>
+          <grid row="13" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Display Employee Salary"/>
+        </properties>
+      </component>
+      <component id="f8e52" class="javax.swing.JButton" binding="addMilkingMeasurementButton" default-binding="true">
+        <constraints>
+          <grid row="14" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Add Milking Measurement"/>
+        </properties>
+      </component>
+      <component id="66fce" class="javax.swing.JButton" binding="exitButton" default-binding="true">
+        <constraints>
+          <grid row="16" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Exit"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
